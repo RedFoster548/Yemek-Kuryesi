@@ -1,3 +1,4 @@
+<img width="1916" height="1079" alt="Ekran görüntüsü 2026-06-01 221211" src="https://github.com/user-attachments/assets/7c45385c-3aac-4ac6-9094-3ede9b610ff2" />
 # Yemek Kuryesi
 
 Yemek Sepeti tarzı online yemek sipariş uygulaması — React, TypeScript, Tailwind CSS.
