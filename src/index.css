@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #faf8f6;
+  color: #1a1a1a;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-soft {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.85;
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-fade-up {
+  animation: fade-up 0.5s ease-out forwards;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s ease-in-out infinite;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.card-hover {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px -12px rgba(255, 96, 0, 0.25);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #ff6000 0%, #ff8533 100%);
+  box-shadow: 0 4px 14px rgba(255, 96, 0, 0.4);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(255, 96, 0, 0.45);
+}
+
+.bg-mesh {
+  background-color: #faf8f6;
+  background-image:
+    radial-gradient(at 0% 0%, rgba(255, 96, 0, 0.08) 0, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(255, 180, 100, 0.1) 0, transparent 45%),
+    radial-gradient(at 50% 100%, rgba(255, 96, 0, 0.05) 0, transparent 50%);
+}
