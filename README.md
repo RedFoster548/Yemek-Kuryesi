@@ -1,36 +1,35 @@
-<img width="1916" height="1079" alt="Ekran görüntüsü 2026-06-01 221211" src="https://github.com/user-attachments/assets/7c45385c-3aac-4ac6-9094-3ede9b610ff2" />
-# Yemek Kuryesi
+# 🍕 Yemek Kuryesi
 
 Yemek Sepeti tarzı online yemek sipariş uygulaması — React, TypeScript, Tailwind CSS.
 
-## Özellikler
+## 📸 Proje Ekran Görüntüsü
 
-- Restoran listesi ve kategori filtreleme
-- Öne çıkan yemekler ve menüden sepete ekle
-- Aynı ürün tekrar eklenince adet artar
-- Sipariş onayı ve tahmini teslimat süresi
-- Sepet CRUD (localStorage)
+<img width="100%" alt="Yemek Kuryesi Arayüzü" src="https://github.com/user-attachments/assets/7c45385c-3aac-4ac6-9094-3ede9b610ff2" />
 
-## CRUD işlemleri
+---
 
-| İşlem | Nasıl |
-|--------|--------|
-| **Ekle** | Menü veya öne çıkan yemeklere tıkla |
-| **Listele** | Sağ panel **Sepetim** |
-| **Güncelle** | Sepette **Güncelle** → adet / not |
-| **Sil** | Sepette **Sil** |
+## ✨ Özellikler
 
-## Çalıştırma
+- 🍔 Restoran listesi ve kategori filtreleme
+- 🍕 Öne çıkan yemekler ve menüden tek tıkla sepete ekleme
+- 🔄 Aynı ürün tekrar eklenince sepet içinde adet artırma
+- ⏱️ Sipariş onayı ve restorana özel dinamik tahmini teslimat süresi
+- 💾 Sepet CRUD işlemleri ve verilerin `localStorage` üzerinde saklanması
+
+## 🛠️ CRUD İşlemleri
+
+| İşlem | Nasıl Yapılır? |
+| :--- | :--- |
+| **Ekle** | Menü veya öne çıkan yemekler kartındaki butonlara tıklayarak |
+| **Listele** | Sağ panelde yer alan **Sepetim** alanından anlık takip ederek |
+| **Güncelle** | Sepet içinde yer alan butonlarla **Adet / Not** değiştirerek |
+| **Sil** | Sepetteki ürünü tamamen kaldırarak |
+
+## 🚀 Çalıştırma
+
+Lokal bilgisayarınızda projeyi ayağa kaldırmak için terminalde sırasıyla şu komutları çalıştırabilirsiniz:
 
 ```powershell
 $env:Path = "C:\Program Files\nodejs;" + $env:Path
-npm.cmd run dev
-```
-
-Tarayıcı: http://localhost:5173
-
-## Teslim formu
-
-1. **GitHub** — public repo linki
-2. **Netlify** — canlı site linki (`netlify.toml` build ayarlarını içerir)
-3. **Ekran görüntüsü** — formdaki **Dosya ekle** ile yükle (repoda klasör gerekmez)
+npm install
+npm run dev
