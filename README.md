@@ -4,7 +4,7 @@ Yemek Sepeti tarzı online yemek sipariş uygulaması — React, TypeScript, Tai
 
 ## 📸 Proje Ekran Görüntüsü
 
-<img width="100%" alt="Yemek Kuryesi Arayüzü" src="https://github.com/user-attachments/assets/7c45385c-3aac-4ac6-9094-3ede9b610ff2" />
+<img src="https://github.com/user-attachments/assets/7c45385c-3aac-4ac6-9094-3ede9b610ff2" alt="Yemek Kuryesi Arayüzü" style="max-width: 100%; display: block;" />
 
 ---
 
